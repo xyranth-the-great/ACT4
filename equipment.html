@@ -89,7 +89,7 @@
   <script type="module">
     import { supabase } from "supabaseClient.js";
     import { requireAuth } from "auth.js";
-    import { renderSidebar } from ".nav.js";
+    import { renderSidebar } from "nav.js";
     import { badge, fmtDateTime, toast, errorMessage, confirmModal } from "ui.js";
 
     const user = await requireAuth();
