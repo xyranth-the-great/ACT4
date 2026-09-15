@@ -45,10 +45,10 @@
   </div>
 
   <script type="module">
-    import { supabase } from ".supabaseClient.js";
-    import { requireAuth } from ".auth.js";
-    import { renderSidebar } from ".nav.js";
-    import { fmtDateTime, errorMessage } from ".ui.js";
+    import { supabase } from "supabaseClient.js";
+    import { requireAuth } from "auth.js";
+    import { renderSidebar } from "nav.js";
+    import { fmtDateTime, errorMessage } from "ui.js";
 
     // TC-A4-01 pattern applied here too: non-admin never sees log data,
     // both because the page redirects them and because RLS (audit_select)
