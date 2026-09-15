@@ -1,4 +1,4 @@
-import { supabase } from "./supabaseClient.js";
+import { supabase } from ".supabaseClient.js";
 
 /**
  * Returns { session, profile } for the current signed-in user, or null
