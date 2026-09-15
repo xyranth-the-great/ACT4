@@ -87,10 +87,10 @@
   </div>
 
   <script type="module">
-    import { supabase } from ".supabaseClient.js";
-    import { requireAuth } from ".auth.js";
+    import { supabase } from "supabaseClient.js";
+    import { requireAuth } from "auth.js";
     import { renderSidebar } from ".nav.js";
-    import { badge, fmtDateTime, toast, errorMessage, confirmModal } from "./js/ui.js";
+    import { badge, fmtDateTime, toast, errorMessage, confirmModal } from "ui.js";
 
     const user = await requireAuth();
     if (!user) throw new Error("redirecting");
