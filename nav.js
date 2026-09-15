@@ -1,5 +1,5 @@
-import { logout } from "auth.js";
-import { initials } from "ui.js";
+import { logout } from "./auth.js";
+import { initials } from "./ui.js";
 
 /**
  * Role -> nav items. This is the *interface-level* authorization: a
