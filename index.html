@@ -6,7 +6,7 @@
   <title>Sign in · Lab Asset Management</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <div class="auth-shell">
@@ -36,8 +36,8 @@
   </div>
 
   <script type="module">
-    import { supabase } from "./js/supabaseClient.js";
-    import { getCurrentUser } from "./js/auth.js";
+    import { supabase } from ".supabaseClient.js";
+    import { getCurrentUser } from ".auth.js";
 
     const errorEl = document.getElementById("form-error");
     const form = document.getElementById("login-form");
