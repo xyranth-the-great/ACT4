@@ -37,10 +37,10 @@
   </div>
 
   <script type="module">
-    import { supabase } from "./js/supabaseClient.js";
-    import { requireAuth } from ".auth.js";
-    import { renderSidebar } from ".nav.js";
-    import { badge, fmtDate, toast, errorMessage, confirmModal } from "./js/ui.js";
+    import { supabase } from "supabaseClient.js";
+    import { requireAuth } from "auth.js";
+    import { renderSidebar } from "nav.js";
+    import { badge, fmtDate, toast, errorMessage, confirmModal } from "ui.js";
 
     // TC-A4-01: only Administrator may open this page — a Viewer/Staff
     // is redirected before any data loads.
